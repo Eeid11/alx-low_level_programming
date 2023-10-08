@@ -13,9 +13,9 @@ int main(void)
 char x = 'a';
 while (ch <= 'z')
 {
-putcher(ch);
+putchar(ch);
 ch++;
 }
-putcher('\n');
+putchar('\n');
 return (0);
 }
