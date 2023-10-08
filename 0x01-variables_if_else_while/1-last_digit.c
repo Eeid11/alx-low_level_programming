@@ -13,15 +13,15 @@
 
 int main(void)
 {
-int n, x;
+int n, digit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-x = n % 10;
-if (x > 5)
-printf("Last digit of %i is %i and is greater than 5\n", n, x);
-else if (x == 0)
-printf("Last digit of %i is 0 and is 0,n\n", n);
-else if (x < 6)
-printf("Last digit of %i is %i and is less than 6 and not 0\n", n, x);
+digit = n % 10;
+if (digit > 5)
+printf("Last digit of %i is %i and is greater than 5\n", n, digit);
+else if (digit == 0)
+printf("Last digit of %i is %i and is 0,n\n", n, digit);
+else if (digit < 6)
+printf("Last digit of %i is %i and is less than 6 and not 0\n", n, digit);
 return (0);
 }
