@@ -11,7 +11,7 @@
 int main(void)
 {
 char x = 'a';
-while (ch != 'z')
+while (ch <= 'z')
 {
 putcher(ch);
 cd++;
