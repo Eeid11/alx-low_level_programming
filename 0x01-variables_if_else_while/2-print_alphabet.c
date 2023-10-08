@@ -14,7 +14,7 @@ char x = 'a';
 while (ch <= 'z')
 {
 putcher(ch);
-cd++;
+ch++;
 }
 putcher('\n');
 return (0);
