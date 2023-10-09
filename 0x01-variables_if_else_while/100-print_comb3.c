@@ -15,10 +15,10 @@ while (x <= 9)
 y = 0;
 while (y <= 9)
 {
-if (x != Y && X < Y)
+if (x != y && X < y)
 {
 putchar(x + 48);
-putchar(Y + 48);
+putchar(y + 48);
 if (x + y != 17)
 {
 putchar(',');
