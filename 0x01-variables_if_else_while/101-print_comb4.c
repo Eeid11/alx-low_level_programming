@@ -28,7 +28,6 @@ if (x + y + z != 24)
 {
 putchar(',');
 putchar(' ');
-
 }
 }
 z++;
