@@ -23,7 +23,7 @@ if (x != y && x < y && y != z && y < z)
 putchar(x + 48);
 putchar(y + 48);
 putchar(y + 48);
-if (x + y != 17)
+if (x + y + z != 24)
 {
 putchar(',');
 putchar(' ');
