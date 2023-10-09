@@ -9,7 +9,8 @@
 
 int main(void)
 {
-int x = 0, y, z;
+int x = 0;
+int y, z;
 while (x <= 9)
 {
 y = 0;
