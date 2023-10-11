@@ -14,7 +14,7 @@ char w[] = "_putchar";
 int x;
 for (x = 0; x <= 8 ; x++)
 {
-_putchar(w[]);
+_putchar(w[x]);
 _putchar('\n');
 }
 return (0);
