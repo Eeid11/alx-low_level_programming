@@ -5,7 +5,7 @@
  *
  * @n: takes in integer input for function
  *
- * Retuen: Always 0 (success)
+ * Return: Always 0 (success)
  *
 */
 
