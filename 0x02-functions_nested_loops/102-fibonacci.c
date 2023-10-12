@@ -10,13 +10,22 @@
 
 int main(void)
 {
-	int sum, num;
+	int count;
 
-	for (num = 0; num < 1024; num++)
+	unsigned long fib1 = 0, fib2 = 1, sum;
+
+	for (count = 0; count < 50; count++)
 	{
-		if ((num % 3 == 0) || (num % 5 == 0))
-			sum += num;
-		printf("%d\n", sum);
+		sum = fib1 + fib2;
+		printf("%lu", sum);
+
+		fib1 = fib2;
+		fib2 = sum;
+
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
 
 	return (0);
