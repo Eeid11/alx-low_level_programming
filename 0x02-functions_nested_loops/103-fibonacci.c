@@ -6,7 +6,7 @@
  * Description: print the sum of even-valed
  *		fibonacci sequence not exceed
  *
- * return: 0
+ * Return: 0
 */
 
 int main(void)
