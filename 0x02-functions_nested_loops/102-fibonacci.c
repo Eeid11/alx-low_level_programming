@@ -10,32 +10,14 @@
 
 int main(void)
 {
-int count = 3;
+	int sum, num;
 
-long int first = 1, second = 2;
-long int next = first + second;
+	for (num = 0; num < 1024; num++)
+	{
+		if ((num % 3 == 0 || (num % 5 == 0))
+			sum += num;
+	}
+	printf("%d\n", sum);
 
-printf("%lu, ", first);
-printf("%lu, ", second);
-
-while (count <= 50)
-{
-if (count == 50)
-{
-printf("%lu \n", next);
-}
-else  /* if we are not at the end of the list, add a comma after the number */
-{
-printf("%lu, ", next);
-}
-/* Reset the variables to get the next number */
-first = second;
-second = next;
-
-/* after resetting the variables, you need to find the next number */
-next = first + second;
-count++;
-}
-
-return (0);
+	return (0);
 }
