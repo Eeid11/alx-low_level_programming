@@ -27,6 +27,6 @@ int main(void)
 		x = y;
 		y = sum;
 	}
-	printf("%.0f\n", total_sum);
+	printf("%.0f\n", total);
 
 	return (0);
