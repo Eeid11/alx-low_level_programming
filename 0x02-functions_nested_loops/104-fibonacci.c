@@ -43,13 +43,13 @@ int main(void)
 		initi = numlength(mx) - 1 - numlength(f1);
 		while (f1o > 0 && initi > 0)
 		{
-			printf("%lu", 0);
+			printf("%d", 0);
 			initi--;
 		}
 
 		printf("%lu", f1);
 
-		sum = (fi + f2) % mx;
+		sum = (f1 + f2) % mx;
 		sumo = f1o + f2o + (f1 + f2) / mx;
 		f1 = f2;
 		f1o = f2o;
