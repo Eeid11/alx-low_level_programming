@@ -30,3 +30,4 @@ int main(void)
 	printf("%.0f\n", total);
 
 	return (0);
+}
