@@ -12,7 +12,6 @@ int main(void)
 
 	int y = 0;
 
-	printf("%d\n", y++);
 	for (int i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && !(i % 5 == 0))
