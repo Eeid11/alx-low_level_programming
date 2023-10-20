@@ -1,5 +1,5 @@
 /**
- * trcat - function that concatenates
+ * _strcat - function that concatenates
  *		two strings.
  *
  * @dest: pointer to destnation input
