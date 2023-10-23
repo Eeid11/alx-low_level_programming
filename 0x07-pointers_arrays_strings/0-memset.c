@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset _ fille memory
+ * _memset - fille memory by input
  *
  * @s: pointer
  * @b: conistante
@@ -18,4 +18,4 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 	}
 	return (s);
-}	
+}
