@@ -20,12 +20,5 @@ char *_strchr(char *s, char c)
 			return (s + i);
 		}
 	}
-<<<<<<< HEAD
-
 	return ('\0');
-=======
-		return ('\0');
->>>>>>> 61a474bafe1e3700b419b27d022db2fa4f75f3da
-
-	
 }
