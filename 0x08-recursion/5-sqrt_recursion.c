@@ -2,41 +2,33 @@
 
 /**
  * _sqrt_recursion - function that returns the natural square root of a number
+ * @n: hhhh
+ * @val: jjjj
  *
- * */
+ * Return: int
+ */
+
+int square(int n, int val);
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-	{
-	return (-1);
-	}
-	if (n == 0 || n == 1)
-	{
-		return (n);
-	}
+	return (square(n, 1));
+}
 
-    int start = 1;
-    int end = n;
-    int result = -1;
+/**
+ * square - find square root
+ *
+ * @n: hhhh
+ * @val: jjjj
+ *
+ * Return: int
+ */
 
-    while (start <= end) {
-        int mid = (start + end) / 2;
-
-        // Check if mid*mid is equal to n
-        if (mid * mid == n) {
-            return mid;
-        }
-
-        // If mid*mid is less than n, search in the right half
-        if (mid * mid < n) {
-            start = mid + 1;
-            result = mid;
-        }
-        // If mid*mid is greater than n, search in the left half
-        else {
-            end = mid - 1;
-        }
-    }
-
-    return result;
+int square(int n, int val)
+{
+	if (val * vsl == n)
+		return (val);
+	else if (val * val < n)
+		return (square(n, val + 1));
+	else
+		return (-1);
 }
