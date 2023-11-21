@@ -6,7 +6,7 @@
  * Return: the number of nods.
  */
 
-size_t listint_len(const listint_t *h);
+size_t listint_len(const listint_t *h)
 {
 	size_t count = 0;
 
